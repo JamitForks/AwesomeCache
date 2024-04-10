@@ -1,5 +1,4 @@
 import Foundation
-import NSKeyedUnarchiverWrapper
 
 /// Represents the expiry of a cached object
 public enum CacheExpiry {
