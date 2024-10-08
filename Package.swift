@@ -18,18 +18,11 @@ let package = Package(
     targets: [
         .target(
             name: "AwesomeCache",
-            dependencies: ["NSKeyedUnarchiverWrapper"],
+            dependencies: [],
             path: "AwesomeCache",
             sources: ["Cache.swift", "CacheObject.swift"],
             publicHeadersPath: ""
         ),
-        .target(
-            name: "NSKeyedUnarchiverWrapper",
-            dependencies: [],
-            path: "AwesomeCache",
-            sources: ["NSKeyedUnarchiverWrapper.h", "NSKeyedUnarchiverWrapper.m"],
-            publicHeadersPath: ""
-        )
     ],
     swiftLanguageVersions: [.v5]
 )
